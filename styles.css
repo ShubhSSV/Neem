@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 151vh;
+    height: 100vh;
     padding: 20px;
     padding-top: 100px;
 }
@@ -66,6 +66,11 @@ strong {
 /* Responsive Design */
 @media only screen and (max-width: 768px) {
     /* For tablets and mobile screens */
+    body {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .plant-details {
         flex-direction: column;
     }
@@ -86,6 +91,11 @@ strong {
 
 @media only screen and (max-width: 480px) {
     /* For small mobile screens */
+    body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     .plant-image img {
         width: 150px;
         height: 150px;
