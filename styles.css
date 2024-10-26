@@ -13,7 +13,8 @@ body {
     align-items: center;
     height: 100vh;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 202px;
+    padding-bottom: 151px;
 }
 
 .container {
@@ -91,10 +92,6 @@ strong {
 
 @media only screen and (max-width: 480px) {
     /* For small mobile screens */
-    body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
 
     .plant-image img {
         width: 150px;
