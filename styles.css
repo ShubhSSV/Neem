@@ -11,10 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 160vh;
     padding: 20px;
-    padding-top: 202px;
-    padding-bottom: 151px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .container {
